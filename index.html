@@ -25,6 +25,9 @@
                 width: 100%;
                 padding: 3% 0;
             }
+            .body{
+                margin-top: 200px;
+            }
             .picture{
                 padding: 20px 80px 20px 30px;
                 width: 120px;
@@ -52,6 +55,25 @@
             li{
                 margin: 0 20px;
             }
+
+            div.ol_title{
+                margin: 10px 30px 0 30px;
+                width: 500px;
+                height: 50px;
+                background-color: rgb(246, 246, 246);
+            }
+
+            div.ol_title ol{
+                font-size: 18px;
+                margin: 20px 30px;
+                display: inline-flex;
+                padding: 0;
+                font-size: 12px;
+            }
+
+            div.ul_title li{
+                margin-top: 10px;
+            }
             p.title{
                 color: rgb(19, 20, 98);
                 font-size: 22px;
@@ -63,19 +85,23 @@
                 width: 100%;
                 background-color: gainsboro;
             }
-            .experiencei{
+            .experiencei, .formationi, div.item{
                 display: inline-flex;
+            }
+            .formationi>p{
+                margin-top:0;
             }
             .description{
                 margin-left: 50px;
             }
-            .style{
+            .degree{
                 text-transform: uppercase;
                 color: rgb(19, 20, 98);
             }   
             .date{
                 width: 150px;
             }
+
         </style>
     </head>
     <body>
@@ -88,7 +114,7 @@
                     <ul class="phone"><li>+225 07 48 65 75 28 </li> <li>gbanemanzara95@gmail.com</li> </ul>
                 </div>
             </div>
-            <div class="body" style="margin-top: 200px;">
+            <div class="body">
                 <div class="experience">
                     <p class="title">experiences professionnelles</p>
                     <div class="line"></div>
@@ -98,7 +124,7 @@
                             <!-- <p>Abidjan,Côte d'Ivoire</p> -->
                         </div>
                         <div class="description">
-                            <p class="style">Développeuse .NET </p>
+                            <p class="degree">Développeuse .NET </p>
                             <p>CNTIG (Comité National de Télédection et de l'Information Géographique)</p>
                             <ul>
                                 <li>Réalisation d'applications web basées sur C# ASP.Net, Jquery, SQL Server</li>
@@ -114,7 +140,7 @@
                             <!-- <p>Abidjan,Côte d'Ivoire</p> -->
                         </div>
                         <div class="description">
-                            <p class="style">Développeuse MobIle </p>
+                            <p class="degree">Développeuse MobIle </p>
                             <p>ORANGE CI (Orange Summer Challenge)</p>
                             <ul>
                                 <li>Réalisation des interfaces de l'application avec flutter</li>
@@ -129,7 +155,7 @@
                             <!-- <p>Abidjan,Côte d'Ivoire</p> -->
                         </div>
                         <div class="description">
-                            <p class="style">technicicenne Informaticienne </p>
+                            <p class="degree">technicicenne Informaticienne </p>
                             <p>SMB (Société Multinationale du Bitume)</p>
                             <ul>
                                 <li>Réalisation des interfaces de l'application avec flutter</li>
@@ -144,7 +170,7 @@
                             <!-- <p>Abidjan,Côte d'Ivoire</p> -->
                         </div>
                         <div class="description">
-                            <p class="style">Développeuse web </p>
+                            <p class="degree">Développeuse web </p>
                             <p>SOL &</p>
                             <ul>
                                 <li>Réalisation des interfaces de l'application avec flutter</li>
@@ -158,71 +184,196 @@
                 <div class="Formation">
                     <p class="title">Formations</p>
                     <div class="line"></div>
-                    <div class="experiencei">
+                    <div class="formationi">
                         <div class="date">
                             <p>2020 - 2022</p>
                             <!-- <p>Abidjan,Côte d'Ivoire</p> -->
                         </div>
                         <div class="description">
-                            <p class="style">Master en Systèmes Informatiques et Génie Logiciel </p>
+                            <p class="degree">Master en Systèmes Informatiques et Génie Logiciel </p>
                             <p>ESATIC (Ecole Supérieure Africaine des Tic)</p>
                         </div>
                     </div>
-                    <div class="experiencei">
+                    <div class="formationi">
                         <div class="date">
                             <p>2019 - 2020</p>
                             <!-- <p>Abidjan,Côte d'Ivoire</p> -->
                         </div>
                         <div class="description">
-                            <p class="style">Maitrise en base de données et Génie Logiciel </p>
+                            <p class="degree">Maitrise en base de données et Génie Logiciel </p>
                             <p>Université Félix Houphouët Boigny</p>
                         </div>
-                        </div>
                     </div>
-                    <div class="experiencei">
+                    <div class="formationi">
                         <div class="date">
                             <p>2018 - 2019</p>
                             <!-- <p>Abidjan,Côte d'Ivoire</p> -->
                         </div>
                         <div class="description">
-                            <p class="style">Licence en science informatique </p>
+                            <p class="degree">Licence en science informatique </p>
                             <p>Université Félix Houphouët Boigny</p>                    
                         </div>
                     </div>
                     
-                    <div class="experiencei">
+                    <div class="formationi">
                         <div class="date">
                             <p>2017 - 2018</p>
                             <!-- <p>Abidjan,Côte d'Ivoire</p> -->
                         </div>
                         <div class="description">
-                            <p class="style">DIPOME D'ETUDE UNIVERSITAIRE GENERALE </p>
+                            <p class="degree">DIPOME D'ETUDE UNIVERSITAIRE GENERALE </p>
                             <p>UFR Mathématiques-Informatique Option Science Informatiquees</p>
                             <p>Université Félix Houphouët Boigny</p>                    
                         </div>
                     </div>
 
-                    <div class="experiencei">
+                    <div class="formationi">
                         <div class="date">
                             <p>2014 - 2017</p>
                             <!-- <p>Abidjan,Côte d'Ivoire</p> -->
                         </div>
                         <div class="description">
-                            <p class="style">BREVET DE TECHNICIEN SUPERIEUR (BTS) </p>
+                            <p class="degree">BREVET DE TECHNICIEN SUPERIEUR (BTS) </p>
                             <p>Université Félix Houphouët Boigny</p>                    
                         </div>
                     </div>
-                    <div class="experiencei">
+                    <div class="formationi">
                         <div class="date">
                             <p>2013 - 2014</p>
                             <!-- <p>Abidjan,Côte d'Ivoire</p> -->
                         </div>
                         <div class="description">
-                            <p class="style">Baccalauréat série </p>
+                            <p class="degree">Baccalauréat série </p>
                             <p>Université Félix Houphouët Boigny</p>                    
                         </div>
                     </div>
                     
+                </div>
+
+                <div class="Certification">
+                    <p class="title">Certifications</p>
+                    <div class="line"></div>
+                    <div class="formationi">
+                        <div class="date">
+                            <p>Sept 2023</p>
+                            <!-- <p>Abidjan,Côte d'Ivoire</p> -->
+                        </div>
+                        <div class="description">
+                            <p>Certification en C# - Udemy (en cours)</p>
+                        </div>
+                    </div>
+                    <div class="formationi">
+                        <div class="date">
+                            <p>Août 2023</p>
+                            <!-- <p>Abidjan,Côte d'Ivoire</p> -->
+                        </div>
+                        <div class="description">
+                            <p>Certification en C# - LinkedIn</p>
+                        </div>
+                    </div>
+                    <div class="formationi">
+                        <div class="date">
+                            <p>Sept 2023</p>
+                            <!-- <p>Abidjan,Côte d'Ivoire</p> -->
+                        </div>
+                        <div class="description">
+                            <p>Certification en SQL Sept 2023 - LinkedIn</p>
+                        </div>
+                    </div>
+                    <div class="formationi">
+                        <div class="date">
+                            <p>Oct 2023</p>
+                            <!-- <p>Abidjan,Côte d'Ivoire</p> -->
+                        </div>
+                        <div class="description">
+                            <p>Certification ITIL - Alphorm (en cours)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Compétences">
+                    <div class="line"></div>
+                    <!-- <p class="title">Compétences</p> -->
+                    <div class="formationi">
+                        <div>
+                            <p class="title">Compétences</p>
+                            <!-- <p>Abidjan,Côte d'Ivoire</p> -->
+                        </div>
+                        <div class="ol_title">
+                            <ol>
+                                <li>Débutant</li>
+                                <li>Intermédiaire</li>
+                                <li>Avancé</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="formationi">
+                        <div class="date">
+
+                        </div>
+                        <div class="description">
+                            <div class="item">
+                                <ul >
+                                    <li>HTML/CSS3<sup>3</sup></li>
+                                    <li>JAVASCRIPT (JQUERY)<sup>1.5</sup></li>
+                                    <li>C#<sup>2</sup></li>
+                                    <li>ASP .NET / ASP.NET CORE2 <sup>2</sup></li>                            
+                                </ul>
+                                <ul>
+                                    <li>MS SQL SERVER<sup>2</sup></li>
+                                    <li>MYSQL1<sup>1.5</sup></li>
+                                    <li>SQL DEVELOPER <sup>1.5</sup></li>
+                                </ul>
+                            </div>
+                            <div class="item">
+                                <ul >
+                                    <li>MS POWER AUTOMATE <sup>1</sup></li>
+                                    <li>WORD<sup>2.5</sup></li>
+                                    <li>EXCEL<sup>1.5</sup></li>
+                                </ul>
+                                <ul>
+                                    <li>PHOTOSHOP<sup>2</sup></li>
+                                    <li>ILLUSTRATOR<sup>1.5</sup></li>
+                                    <li>PREMIERE PRO <sup>1.5</sup></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Langue">
+                    <div class="line"></div>
+                    <!-- <p class="title">Compétences</p> -->
+                    <div class="formationi">
+                        <div>
+                            <p class="date title">Langues</p>
+                            <!-- <p>Abidjan,Côte d'Ivoire</p> -->
+                        </div>
+                        <div class="ul_title">
+                            <ul>
+                                <li>Français <sup>3</sup> </li>
+                                <li>Anglais <sup>1.5</sup></li>
+                            </ul>
+                        </div>
+                    </div>                
+                </div>
+                <div class="Centre_interet">
+                    <div class="line"></div>
+                    <!-- <p class="title">Compétences</p> -->
+                    <div class="formationi">
+                        <div>
+                            <p class="date title">Loisirs</p>
+                            <!-- <p>Abidjan,Côte d'Ivoire</p> -->
+                        </div>
+                        <div class="ul_title">
+                            <ul>
+                                <li>Veille technologique en développement d’applications</li>
+                                <li>Lecture</li>
+                                <li>Vie associative</li>
+                                <li>Mangas</li>
+                            </ul>
+                        </div>
+                    </div>                
                 </div>
             </div>
             <div class="foot"></div>
