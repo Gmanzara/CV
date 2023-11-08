@@ -3,13 +3,89 @@
     <head>
         <title>Mon portefolio</title>
         <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
+    <style>
+        .container_aboutme{
+            background-color: white;
+            margin: 10% 20% 50px 20%;
+            padding: 30px;
+            box-shadow: 0px 0px 10px 8px rgba(0,0,0,0.2);
+            position: relative;
+            border-radius: 10px;
+        }
+
+        .picture{
+            display: inline-flex;
+            right: 50%;
+            position: absolute;
+            margin-top:-10%;
+        }
+
+        .aboutme{
+            margin-top: 50px;
+        }
+ 
+        .aboutme p{
+            text-align: center;
+            line-height: 1.5em;
+            margin-top: 0;
+        }
+        .aboutme p:first-child{
+            text-align: center;
+            margin-bottom: 0;
+        }
+        .name{
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: bold;
+            
+        }
+    
+        .buttonCV{
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgb(66, 9, 50);
+            padding: 15px;
+            width: 200px;
+            border-radius: 10px;
+        } /*
+        .buttonCV a{
+            text-decoration: none;
+            text-align: center;
+        } */
+        .buttonCV a{
+            text-decoration: none;
+            padding: 10px;
+            color: white;
+        }
+        
+        @media screen and (max-width: 780px) {
+            .picture{
+            display: inline-flex;
+            right: 50%;
+            position: absolute;
+            margin-top:0%;
+            width: 100%;
+        }
+        }
+    </style>
     <body>
-        <img src="avatar.png" alt="" width="10%">
-        <div class="container" >
-            <div class="head1" style="width: 200px; border: 1px solid black;border-radius: 50px;">
+       
+        <div class="container_aboutme" style="position: relative;" >
+            <img src="avatar.png" alt="" width="10%" class="piccture" style="display: inline-flex;right: 50%;position: absolute; margin-top:-10%;">
+            <div class="head1">
             </div>
-            <div class="body1"></div>
-            <div class="foot"></div>
+            <div class="aboutme">
+                <p > Je suis <span class="name">GBANE  Manzara </span> , développeuse en .Net</p>
+                <p> Passionnée par l'univers du web et dotée d'une grande curiosité, 
+                    je suis titulaire d'un master en Système Informatique et Génie de l'
+                    Ecole Supérieure Africaine des Tic. Polyvalente et dynamique d'une expérience
+                    de 3 ans dans le developpement .Net et mobile . J'ai aussi des compétences en graphiste
+                    particulièrement dans la conception de logo, flyer ,kakemono, maquette web et mobile.</p>
+            </div>
+            <div class="buttonCV">
+                <a href="CV_GBANE_MANZARA.pdf" target="_blank" class="">Télécharger mon CV</a>
+            </div>
     </body>
 </html>
